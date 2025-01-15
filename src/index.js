@@ -10,6 +10,6 @@ app.listen(port, () => {
     
 })
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
     res.json({message: "Server is running"})
 })
